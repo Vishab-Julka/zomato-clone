@@ -1,6 +1,6 @@
 import mongoose  from 'mongoose';
 
-const Reviewschema = mongoose.Schema({
+const Reviewschema = new mongoose.Schema({
 
     food:{
         type:mongoose.Types.ObjectId,
